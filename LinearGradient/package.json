@@ -1,0 +1,14 @@
+{
+  "name": "lineargradient",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main3.js",
+  "scripts": {
+    "build": "browserify main3.js>bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.5"
+  }
+}

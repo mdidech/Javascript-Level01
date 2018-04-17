@@ -1,6 +1,7 @@
 let button=document.querySelector("#enter");
 let ul=document.querySelector("ul");
 let item=document.querySelector("#items");
+
 button.addEventListener("click",function(){
         let exist=false;
         let items=document.querySelectorAll("li");
@@ -14,6 +15,4 @@ button.addEventListener("click",function(){
         ul.appendChild(node);
     }else{
         alert("exists");
-    }
- })
-
+    }})
